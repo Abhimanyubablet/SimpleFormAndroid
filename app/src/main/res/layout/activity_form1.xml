@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Form1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="@color/Light_blue"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="70dp"
+            android:textSize="25dp"
+            android:text="Login"
+            />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="70dp"
+            android:textSize="15dp"
+            android:text="and you can discover best news around the world"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginTop="70sp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            app:hintTextColor="#E10852"
+            android:layout_margin="30dp"
+
+            app:boxStrokeColor="@color/pink"
+            android:textColorHint="@color/black"
+            style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+            android:hint="Email" >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            app:hintTextColor="#E10852"
+            android:layout_marginHorizontal="30sp"
+            app:boxStrokeColor="@color/pink"
+            android:textColorHint="@color/black"
+            style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox.Dense"
+            android:hint="Password(optional)"  >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remember me"
+            android:textColor="@color/light_dark"
+            android:layout_marginHorizontal="35sp"
+            android:layout_marginTop="15sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40sp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/white"
+            android:text="Login"
+            android:background="@drawable/button"
+            android:backgroundTint="#E91E63"
+            />
+    </LinearLayout>
+</LinearLayout>

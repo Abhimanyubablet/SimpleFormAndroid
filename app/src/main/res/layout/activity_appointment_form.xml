@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    tools:context=".Appointment_form" >
+
+    <TextView
+        android:id="@+id/appointment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textSize="24dp"
+        android:text="Appointment Form"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/mytext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+
+        android:textSize="16dp"
+        android:layout_below="@+id/appointment"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/mytext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+
+        android:textSize="16dp"
+        android:layout_below="@+id/mytext1"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/mytext3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:layout_below="@+id/mytext2"
+        android:textAlignment="center"
+        />
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="40dp"
+        android:hint="Patient Name"
+        />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@+id/editText1"
+        android:hint="Address"
+        />
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@+id/editText2"
+        android:hint="What Type Of Health Issue"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:hint="Submit"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/editText3"
+        />
+
+
+</RelativeLayout>

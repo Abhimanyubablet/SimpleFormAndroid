@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+         android:src="@drawable/avg"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Welcome Back"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="15dp"
+        android:text="Sign in to continue"
+        android:textColor="@color/light_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:textColorHint="@color/black"
+        android:textSize="13dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:backgroundTint="@color/black"
+        android:layout_marginLeft="30dp"
+        android:hint="Email"
+    />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:textColorHint="@color/black"
+        android:textSize="13dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:backgroundTint="@color/black"
+        android:layout_marginLeft="30dp"
+
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/black"
+        android:textSize="13dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:backgroundTint="@color/black"
+        android:layout_marginLeft="30dp"
+        android:hint="Password"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:textColorHint="@color/black"
+        android:textSize="13dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:backgroundTint="@color/black"
+        android:layout_marginLeft="30dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Forgot Password?"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="210dp"
+        android:textColor="@color/light_dark"
+     />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FF0281"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:padding="15dp"
+        android:text="Login"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="120dp"
+        android:textColor="@color/light_dark"
+        android:text="New user?"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0281"
+        android:layout_marginTop="-19dp"
+        android:layout_marginLeft="190dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Sign Up"
+        />
+</LinearLayout>

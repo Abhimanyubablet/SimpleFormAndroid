@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".simple_green">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/simple_green"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="148dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to MaterialX"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20dp"
+        android:textColor="@color/green"
+        android:textAlignment="center"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+
+        android:textColor="@color/simple_green_login3"
+        android:textSize="15dp"
+        android:text="Sign in to continue"
+
+       />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:textColorHint="@color/light_dark"
+        android:textSize="13dp"
+        android:textColor="@color/light_dark"
+
+        android:backgroundTint="@color/light_dark"
+        android:layout_marginLeft="30dp"
+        android:hint="USERNAME"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:textColorHint="@color/black"
+        android:textSize="13dp"
+        android:textColor="@color/light_dark"
+
+        android:backgroundTint="@color/light_dark"
+        android:layout_marginLeft="30dp"
+
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/light_dark"
+        android:textSize="13dp"
+        android:textColor="@color/light_dark"
+
+        android:backgroundTint="@color/light_dark"
+        android:layout_marginLeft="30dp"
+        android:hint="PASSWORD"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:textColorHint="@color/light_dark"
+        android:textSize="13dp"
+        android:textColor="@color/light_dark"
+
+        android:backgroundTint="@color/light_dark"
+        android:layout_marginLeft="30dp"
+
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:padding="15dp"
+        android:text="S I G N  IN"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/light_dark"
+        android:text="SIGN UP FOR AN ACCOUNT"
+        />
+</LinearLayout>

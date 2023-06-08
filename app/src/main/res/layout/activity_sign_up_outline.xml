@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mountain"
+    tools:context=".Sign_up_outline">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_back"
+
+            />
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="260dp"
+            android:layout_height="30dp"
+            android:src="@drawable/three_dots"
+
+            />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:textSize="18dp"
+        android:background="@drawable/custom"
+        android:padding="7dp"
+        android:layout_marginLeft="28dp"
+        android:hint="Roberts Turner"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:textSize="18dp"
+        android:background="@drawable/custom"
+        android:padding="7dp"
+        android:layout_marginLeft="28dp"
+        android:hint="roberts.turner"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:textSize="18dp"
+        android:background="@drawable/custom"
+        android:padding="7dp"
+        android:layout_marginLeft="28dp"
+        android:hint="****"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:textSize="18dp"
+        android:background="@drawable/custom"
+        android:padding="7dp"
+        android:layout_marginLeft="28dp"
+        android:hint="roberts.turner@gmail.com"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="28dp"
+        >
+        <Spinner
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="28dp"
+        >
+        <Spinner
+            android:id="@+id/sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="15dp"
+        >
+    <Spinner
+        android:id="@+id/nation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="320dp"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/black"
+        app:hintTextColor="@color/black"
+        android:background="@drawable/custom"
+        android:textColorHint="@color/black"
+        style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox.Dense"
+        android:hint="Username"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/light_dark"
+        android:layout_marginLeft="30dp"
+        />
+</LinearLayout>

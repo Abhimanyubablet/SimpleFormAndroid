@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".profile3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/women_pink"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_menu_24"
+
+            />
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="Profile"
+            />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_margin="10dp"
+            android:layout_height="30dp"
+            android:src="@drawable/baseline_search_24"
+
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_margin="10dp"
+            android:layout_height="30dp"
+            android:src="@drawable/three_dots"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:text="Julianna Carter"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/light_dark"
+            android:textAlignment="center"
+            android:text="Photographer"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/baseline_chat_24"
+                android:layout_margin="20dp"
+
+                />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/girl"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/pink"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/baseline_call_24"
+
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_dark"
+            android:layout_gravity="center"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="40dp"
+            >
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:text="1.5 K"
+                android:textColor="@color/women_pink"
+                />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="Posts"
+                    android:textColor="@color/light_dark"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:text="17.8 K"
+                    android:textColor="@color/women_pink"
+                    />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="Followers"
+                    android:textColor="@color/light_dark"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:text="1.3 K"
+                    android:textColor="@color/women_pink"
+                    />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="Following"
+                    android:textColor="@color/light_dark"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_dark"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:textSize="16dp"
+            android:text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tenetur cupiditate iste impedit ipsam omnis quia fugit dolore consectetur blanditiis!"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_dark"
+            android:layout_gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="20dp"
+            >
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:text="Website"
+                    android:textColor="@color/women_pink"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="visual-photo.me"
+                    android:textColor="@color/light_dark"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:text="Email"
+                    android:textColor="@color/women_pink"
+                    />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="juli.c@gmail.com"
+                    android:textColor="@color/light_dark"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:text="Phone"
+                    android:textColor="@color/women_pink"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="(022)77723287"
+                    android:textColor="@color/light_dark"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:text="Location"
+                    android:textColor="@color/women_pink"
+                    />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="United States"
+                    android:textColor="@color/light_dark"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:text="Zip Code"
+                    android:textColor="@color/women_pink"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="6525"
+                    android:textColor="@color/light_dark"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:text="Address"
+                    android:textColor="@color/women_pink"
+                    />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="Sonpur ,
+                    Saran(Bihar)"
+                    android:textColor="@color/light_dark"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
